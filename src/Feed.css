@@ -6,12 +6,47 @@
 
 .tweet {
   background-color: white;
-  max-width: 50em;
+  max-width: 35em;
   border-bottom: 1px solid silver;
   padding: 0.5em;
   cursor: pointer;
+  display: flex;
 }
 
 .tweet:hover {
   background-color: lightgray;
+}
+
+
+.picture-wrapper {
+  width: 4em;
+}
+
+.profile-image {
+  width: 2em;
+  height: 2em;
+
+  background-color: black;
+  border-radius: 100%;
+}
+
+.contents-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-matter {
+  display: flex;
+}
+
+.profile-name {
+  font-weight: 700;
+}
+
+.screen-name {
+  color: silver;
+}
+
+.tweet-text {
+  font-size: 0.9em;
 }

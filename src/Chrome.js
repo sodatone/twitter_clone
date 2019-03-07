@@ -8,7 +8,6 @@ export default class Chrome extends Component {
     return (
       <div className="chrome-outer-wrapper">
         <div className="chrome-inner-wrapper">
-          <ProfileInfo />
           <Nav />
         </div>
       </div>
