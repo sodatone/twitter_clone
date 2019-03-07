@@ -1,0 +1,17 @@
+.feed-outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweet {
+  background-color: white;
+  max-width: 50em;
+  border-bottom: 1px solid silver;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.tweet:hover {
+  background-color: lightgray;
+}

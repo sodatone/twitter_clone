@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import './App.css';
+import Chrome from './Chrome'
+import Feed from './Feed'
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Chrome />
+        <Feed />
       </div>
     );
   }

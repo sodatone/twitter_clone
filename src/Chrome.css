@@ -1,0 +1,23 @@
+.chrome-outer-wrapper {
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid silver;
+  z-index: 2;
+}
+
+.chrome-inner-wrapper {
+  margin: 0 auto;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin: 1em;
+}
+
+.nav-item.active {
+  color: lightblue;
+}
