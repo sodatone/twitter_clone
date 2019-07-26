@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
-import tweets from "./tweets.json"
+import React, { Component } from "react";
+import "./App.css";
+import tweets from "./tweets.json";
+import { Layout } from "./Layout";
 
 class App extends Component {
   render() {
-    return (
-      <div>
-      </div>
-    );
+    return <Layout tweets={tweets} />;
   }
 }
 
